@@ -5,7 +5,7 @@
     </p>
     <div><b>Fig 1 WCF agrupa las tecnologías distribuidas de MS en un solo marco de trabajo</b></div><br>
     <div>
-<IMG src="picture_library/WCFCharpter01/fig1.png">
+<IMG src="images/fig1.png">
 </div><br>
     <p align="justify">
     WCF ayuda a construir aplicaciones orientadas a servicios de forma práctica 
@@ -18,7 +18,7 @@ La arquitectura de WCF puede resumirse en el siguiente esquema.
     </p>
      <div><b>Fig 2 Una vista general de la arquitectura de WCF</b></div><br>
     <div>
-<IMG src="picture_library/WCFCharpter01/fig2.png">
+<IMG src="images/fig2.png">
 </div><br>
     <p align="justify">
     En este esquema se muestra los siguientes pasos de comunicación:
@@ -79,11 +79,11 @@ $ mcs /t:library -pkg:wcf IGradeConverter.cs GradeConverterImplementation.cs
  </p>
   <div><b>Fig 3 El aspecto final del convertidor de temperaturas.</b></div><br>
     <div>
-<IMG src="picture_library/WCFCharpter01/fig7.png">
+<IMG src="images/fig7.png">
 </div><br>
   <div><b>Fig 4 El proyecto y la GUI del convertidor de temperaturas GTK# en MonoDevelop</b></div><br>
     <div>
-<IMG src="picture_library/WCFCharpter01/fig8.png">
+<IMG src="images/fig8.png">
 </div><br>
  <p align="justify">Hay dos maneras para que un cliente consuma un servicio WCF:
  <ol>
@@ -93,19 +93,19 @@ $ mcs /t:library -pkg:wcf IGradeConverter.cs GradeConverterImplementation.cs
  </p>
   <div><b>Fig 5 Utilizando la clase Channel para crear un proxy</b></div><br>
     <div>
-<IMG src="picture_library/WCFCharpter01/fig9.png">
+<IMG src="images/fig9.png">
 </div><br>
  <p align="justify">Para probar el ejemplo, primero hay que iniciar el proceso host.</p>
   <div><b>Fig 6 Ejecutando el proceso host</b></div><br>
     <div>
-<IMG src="picture_library/WCFCharpter01/fig10.png">
+<IMG src="images/fig10.png">
 </div><br>
  <p align="justify">Como último paso abrimos el proyecto cliente GTK# y lo ejecutamos desde <b>Mono Develop</b></p>
   <div><b>Fig 7 Ejecutando el programa desde Monodevelop y convirtiendo 100 grados celsius.</b></div><br>
     <div>
-<IMG src="picture_library/WCFCharpter01/fig11.png">
+<IMG src="images/fig11.png">
 </div><br>
   <div><b>Fig 8 Ejecutando el programa y convirtiendo 451 grados farehnheit.</b></div><br>
     <div>
-<IMG src="picture_library/WCFCharpter01/fig12.png">
+<IMG src="images/fig12.png">
 </div>
